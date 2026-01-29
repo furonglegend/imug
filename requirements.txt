@@ -1,0 +1,18 @@
+# Core numeric & ML packages
+numpy>=1.21
+scipy>=1.7
+scikit-learn>=1.0
+
+# PyTorch (choose appropriate build for your CUDA version)
+torch>=1.13
+
+# Optional / visualization
+matplotlib>=3.4
+umap-learn>=0.5; extra == "viz"
+
+# Optional: faiss for ANN indexing (cpu or gpu build)
+# To use faiss, install either `faiss-cpu` or `faiss-gpu` compatible with your environment.
+# faiss-cpu>=1.7
+
+# Testing tool
+pytest>=6.0
